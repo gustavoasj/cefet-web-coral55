@@ -1,1 +1,50 @@
 @import "fonts/stylesheet.css";
+
+#recipiente{
+	background-image: linear-gradient(to bottom, #f6f1b2, #4599b2);
+	margin: 0 auto;
+	width: 800px;
+}
+
+#texto-cardapio{
+	transform: rotate(270deg);
+}
+#subtitulo{
+	font-family: "Trebuchet MS";
+	font-size: 24px;
+	color: #333;
+}
+
+#cardapio{
+	border: solid 1px #aac0ae;
+	margin-left: 154px;
+	font-family: Verdana;
+	font-size: 14px;
+	color: #333;
+	float: right;
+}
+
+#ticket{
+	position: fixed;
+	left: 0;
+	top: 295px;
+}
+#rodape{
+	
+}
+#siri{
+	position: absolute;
+	left: 60px;
+	top:4px;
+	
+}
+h1{
+	font-family: Ravie;
+	font-size: 36px;
+	color: #e90c0c;
+}
+
+h3{
+	font-size: 18px;
+	font-style: bold;
+}
