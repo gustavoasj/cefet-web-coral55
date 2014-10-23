@@ -4,15 +4,17 @@
 	background-image: linear-gradient(to bottom, #f6f1b2, #4599b2);
 	margin: 0 auto;
 	width: 800px;
+	position: relative;
 }
 
 #texto-cardapio{
-	transform: rotate(270deg);
+	text-transform: rotate(270deg);
 }
 #subtitulo{
 	font-family: "Trebuchet MS";
 	font-size: 24px;
 	color: #333;
+	margin-left: 50px;
 }
 
 #cardapio{
@@ -26,15 +28,22 @@
 
 #ticket{
 	position: fixed;
-	left: 0;
+	left: -70px;
 	top: 295px;
 }
+
+#ticket:hover{
+	position: fixed;
+	left: 0px;
+	top: 295px;
+}
+
 #rodape{
 	
 }
 #siri{
 	position: absolute;
-	left: 60px;
+	left: -10px;
 	top:4px;
 	
 }
@@ -42,6 +51,7 @@ h1{
 	font-family: Ravie;
 	font-size: 36px;
 	color: #e90c0c;
+	margin-left: 170px;
 }
 
 h3{
